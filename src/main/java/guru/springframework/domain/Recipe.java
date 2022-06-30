@@ -1,5 +1,6 @@
 package guru.springframework.domain;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
@@ -14,6 +15,7 @@ import java.util.Set;
  */
 @Getter
 @Setter
+@EqualsAndHashCode
 @Document
 public class Recipe {
 
